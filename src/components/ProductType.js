@@ -1,8 +1,8 @@
 import Carousel from "./Carousel";
 
 const ProductType = ({ products, select, name }) => {
-  const capitalizeWord = (prod) => {
-    return prod
+  const capitalizeWord = (name) => {
+    return name
       .split(" ")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");

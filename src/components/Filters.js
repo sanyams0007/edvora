@@ -14,7 +14,7 @@ const Filters = ({ products, states, cities, setSelect }) => {
         <select
           name={name}
           id={name}
-          className="my-2 bg-pcard rounded p-1 text-white"
+          className="my-2 bg-pcard rounded p-2 text-white"
           onChange={handleChange}
         >
           <option value={name} selected disabled hidden>

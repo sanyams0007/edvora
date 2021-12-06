@@ -26,13 +26,6 @@ export default function Carousel({ select, products }) {
             <Product product={product} />
           </SwiperSlide>
         ))}
-        {/* .filter(
-            ({ product_name, address: { state, city } }) =>
-              product_name.includes(select.Name) ||
-              state.includes(select.State) ||
-              city.includes(select.City)
-          )
-              ) */}
       </Swiper>
     </>
   );

@@ -13,7 +13,11 @@ Clone the project
 Go to the project directory
 
 ```bash
+<<<<<<< HEAD
   cd edvora-test
+=======
+  cd edvora
+>>>>>>> 362e4119a26809794cf99e388488d17939cdd8da
 ```
 
 Install dependencies
